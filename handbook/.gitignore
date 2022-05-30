@@ -27,3 +27,6 @@ build.pem
 
 #prettier
 .prettierignore
+
+#package
+package-lock.json
