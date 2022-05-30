@@ -22,7 +22,7 @@ instala as dependencias
 -   npm run tsc -v
 -   npm tsc -v
 
--   tsc.cmd // para ajustar o outdir
+-   tsc.cmd  ou npm run tsc //para fazer o build do ts para js
 
 ---
 

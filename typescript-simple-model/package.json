@@ -1,6 +1,6 @@
 {
     "name": "typescript-simple-model",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Typescript simple model - testing",
     "main": "index.js",
     "scripts": {
