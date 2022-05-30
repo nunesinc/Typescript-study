@@ -1,5 +1,7 @@
 # Typescript Simple Model -nunesinc
 
+## Stack Básica em Typescript
+
 Como configurar do zero a stack em typescript:
 
 -   cria a pasta do projeto
@@ -25,15 +27,19 @@ instala as dependencias
 ---
 
 ## Configuração Prettier
+
 -   configuração do .prettierignore
 -   configuração do prettierrc.yam
 -   adicionar no package.json "fmt": "prettier -w ."
 
 ## Configuração .vscode
+
 -   cria a pasta .vscode
 -   cria o settins.json
 
 ---
+
 ## Configuração Jest
+
 depois configurar o jest
 https://sharklabs.com.br/testes-unitarios-com-nodejs-jest-typescript/
