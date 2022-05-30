@@ -1,13 +1,14 @@
 {
   "name": "typescript-simple-model",
   "version": "1.0.0",
-  "description": "cria a pasta do projeto\r cria o .gitignore na raiz da pasta do projeto\r yarn init -y",
+  "description": "Typescript simple model - testing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc":"tsc",
     "ts-node": "ts-node --script-mode"
   },
+  "repository": "https://github.com/nunesinc/Typescript-study.git",
   "author": "nunesinc",
   "license": "ISC",
   "devDependencies": {

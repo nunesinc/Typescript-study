@@ -5,6 +5,7 @@ Como configurar do zero a stack em typescript:
 -   cria a pasta do projeto
 -   cria o .gitignore na raiz da pasta do projeto
 -   yarn init -y ou npm init -y
+-   irá iniciar o package.json
 
 instala as dependencias
 -   npm install --save-dev typescript
@@ -14,6 +15,7 @@ instala as dependencias
 ## Configuração typescript
 
 -   npm run tsc -- --init 
+-   irá iniciar o tsconfig.json
 
 -   npm run tsc -v
 -   npm tsc -v
