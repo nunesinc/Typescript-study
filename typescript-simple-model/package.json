@@ -4,7 +4,8 @@
   "description": "cria a pasta do projeto\r cria o .gitignore na raiz da pasta do projeto\r yarn init -y",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc":"tsc"
   },
   "author": "nunesinc",
   "license": "ISC",
