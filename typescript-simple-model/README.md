@@ -43,3 +43,6 @@ instala as dependencias
 
 depois configurar o jest
 https://sharklabs.com.br/testes-unitarios-com-nodejs-jest-typescript/
+
+## Commit
+-   update package.json : npm version patch
