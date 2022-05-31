@@ -7,7 +7,7 @@ console.log(msg)
 //lower case
 const announcement = "HellO World!";
 console.log(announcement.toLocaleLowerCase())
-
+console.log(announcement.toLocaleUpperCase())
 
 //greet person
 function greet(person: string, date: Date) {
