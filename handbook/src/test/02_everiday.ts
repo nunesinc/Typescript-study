@@ -70,3 +70,14 @@ function printCoord2(pt: Point) {
 }
  
 printCoord2({ x: 100, y: 100 });
+
+//Literal Types
+function printText(s: string, alignment: "left" | "right" | "center") {
+  console.log(s)
+}
+printText("Hello, world", "right");
+
+function compare(a: string, b: string): -1 | 0 | 1 {
+  return a === b ? 0 : a > b ? 1 : -1;
+}
+console.log(compare("ama","babaama"))
