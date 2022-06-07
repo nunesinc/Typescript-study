@@ -41,3 +41,32 @@ function printId(id: number | string) {
 }
 printId(101)
 printId("teste id")
+
+// Type Aliases
+
+type Point = {
+  x: number;
+  y: number;
+};
+ 
+// Exactly the same as the earlier example
+function printCoord1(pt: Point) {
+  console.log("The coordinate's x value is " + pt.x);
+  console.log("The coordinate's y value is " + pt.y);
+}
+ 
+printCoord1({ x: 100, y: 100 });
+
+
+//INTERFACES
+interface Point1 {
+  x: number;
+  y: number;
+}
+ 
+function printCoord2(pt: Point) {
+  console.log("The coordinate's x value is " + pt.x);
+  console.log("The coordinate's y value is " + pt.y);
+}
+ 
+printCoord2({ x: 100, y: 100 });
