@@ -26,6 +26,14 @@ export class TodoCollection {
         )
     }
 
+    removeComplete() {
+        this.itemMap.forEach((item) => {
+            if (item.complete) {
+                this.itemMap.delete(item.id)
+            }
+        })
+    }
+
     markComplete(id: number, complete: boolean) {
         const todoItem = this.getTodoById(id)
         if (todoItem) {
