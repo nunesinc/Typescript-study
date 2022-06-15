@@ -10,11 +10,14 @@ let todos: TodoItem[] = [
 
 let collection: TodoCollection = new TodoCollection("Adam", todos)
 //console.clear()
-console.log(`${collection.userName}'s Todo List`)
+console.log(`${collection.userName}'s Todo List` +
+`(${ collection.getItemCounts().incomplete } items to do)`
 
-//let newId: number = collection.addTodo("Go for run")
-//let todoItem: TodoItem | undefined = collection.getTodoById(newId)
-//todoItem?.printDetails()
+)
 
-collection.removeComplete() //remove Itens
+//let newId: number = collection.addTodo("Go for run") //old function
+//let todoItem: TodoItem | undefined = collection.getTodoById(newId) //old function
+//todoItem?.printDetails() //old function
+
+//collection.removeComplete() //remove Itens
 collection.getTodoItems(true).forEach((item) => item.printDetails())
