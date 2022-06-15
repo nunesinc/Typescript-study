@@ -1,24 +1,24 @@
-import { TodoItem } from "./todoItem";
+import { TodoItem } from "./todoItem"
 export class TodoCollection {
-  private nextId: number = 1;
-  constructor(public userName: string, public todoItems: TodoItem[] = []) {
-    // no statements required
-  }
-  addTodo(task: string): number {
-    while (this.getTodoById(this.nextId)) {
-      this.nextId++;
+    private nextId: number = 1
+    constructor(public userName: string, public todoItems: TodoItem[] = []) {
+        // no statements required
     }
-    this.todoItems.push(new TodoItem(this.nextId, task));
-    return this.nextId;
-  }
+    addTodo(task: string): number {
+        while (this.getTodoById(this.nextId)) {
+            this.nextId++
+        }
+        this.todoItems.push(new TodoItem(this.nextId, task))
+        return this.nextId
+    }
 
-  getTodoById(id: number): TodoItem | undefined {
-    return this.todoItems.find((item) => item.id === id);
-  }
-  markComplete(id: number, complete: boolean) {
-    const todoItem = this.getTodoById(id);
-    if (todoItem) {
-      todoItem.complete = complete;
+    getTodoById(id: number): TodoItem | undefined {
+        return this.todoItems.find((item) => item.id === id)
     }
-  }
+    markComplete(id: number, complete: boolean) {
+        const todoItem = this.getTodoById(id)
+        if (todoItem) {
+            todoItem.complete = complete
+        }
+    }
 }
