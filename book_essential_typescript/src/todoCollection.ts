@@ -40,6 +40,14 @@ export class TodoCollection {
         })
     }
 
+
+    getItemCounts(): ItemCounts {
+      return {
+        total: this.itemMap.size,
+        incomplete: this.getTodoItems(false).length
+      };
+      }
+
     markComplete(id: number, complete: boolean) {
         const todoItem = this.getTodoById(id)
         if (todoItem) {
