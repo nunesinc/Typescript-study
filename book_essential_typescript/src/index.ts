@@ -1,2 +1,2 @@
-console.clear()
-console.log("Nunes")
+console.clear();
+console.log("Nunes");
