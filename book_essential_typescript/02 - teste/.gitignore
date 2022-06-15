@@ -26,4 +26,4 @@ yarn-error.log*
 build.pem
 
 #prettier
-.prettierignore
+#.prettierignore
